@@ -1,1 +1,17 @@
+# Main output directory (default: forensic_output/)
+forensic_output/
 
+# Recovered files directory (inside output_dir)
+forensic_output/recovered/
+
+# JSON forensic report files
+*_forensic_report.json
+
+# CSV output files
+*_file_listing.csv
+*_partitions.csv
+
+# Text output files (raw TSK module output)
+*_filesystem_info.txt
+*_deleted_files.txt
+*_timeline.txt
