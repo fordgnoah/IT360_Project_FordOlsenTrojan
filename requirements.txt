@@ -1,1 +1,37 @@
+Requirements
+System Requirements
+Minimum:
 
+2 GB RAM
+1 GB free disk space
+Linux/Unix-based OS
+
+Recommended:
+
+4+ GB RAM (for large disk images)
+10+ GB free disk space (for recovered files)
+Ubuntu 20.04+ or Kali Linux
+
+Software Dependencies
+Required:
+
+Python 3.6 or higher
+Sleuth Kit 4.0 or higher
+
+Optional (for development):
+
+Git (for version control)
+Text editor (VS Code, Vim, etc.)
+
+Python Libraries:
+All required libraries are part of Python standard library:
+
+subprocess - Command execution
+json - JSON handling
+csv - CSV file generation
+os, sys - System operations
+pathlib - Path handling
+datetime - Timestamp management
+argparse - CLI argument parsing
+
+No pip install needed!
