@@ -1,0 +1,7 @@
+Our tool requires a disk image. For testing, we used nps-2009-casper-rw, an Ubuntu disk image that has many files that can be read or recovered.
+
+Here is a link to the website to download it.
+https://cfreds.nist.gov/all/DigitalCorpora/NPS2009CasperRW
+
+Or use this to download it right away.
+https://digitalcorpora.s3.amazonaws.com/corpora/drives/nps-2009-casper-rw/ubnist1.casper-rw.gen3.E01
