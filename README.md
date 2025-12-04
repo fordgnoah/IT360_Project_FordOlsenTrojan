@@ -63,17 +63,18 @@ git clone https://github.com/fordgnoah/IT360_Project_FordOlsenTrojan.git
 ```
 **DISCLAIMER - If the files are downloaded as .txt files, execute the following code.**
 ```
-mv 360_toolkit_menu.txt toolkit_menu.py
-mv 360_toolkit_script.txt toolkit_script.py
-mv 360_toolkit2_menu_HTML.txt 360_toolkit2_menu_HTML.py
+mv forensic_toolkit_menu.txt foensic_toolkit_menu.py
+mv forensic_toolkit.txt forensic_toolkit.py
+mv forensic_toolkit2_menu_HTML.txt forensic_toolkit2_menu_HTML.py
+mv forensic_toolkit2_HTML.txt forensic_toolkit2_HTML.py
 ```
 
 3. Set Permissions
 ```
-chmod +x 360_toolkit_script.py
-chmod +x 360_toolkit_menu.py
-chmod +x 360_toolkit2_menu_HTML.py
-chmod +x setup.sh
+chmod +x forensic_toolkit.py
+chmod +x forensic_toolkit_menu.py
+chmod +x forensic_toolkit2_menu_HTML.py
+chmod +x forensic_toolkit2_HTML.py
 ```
 4. Verify Install
 ```
@@ -86,19 +87,19 @@ fls -V              # Should show Sleuth Kit version
 # Quick Start
 **Version 1**
 ```
-cd forensic-toolkit
+cd path/to/forensic_toolkit
 
-python3 360_toolkit_script.py
+python3 forensic_toolkit_menu.py
 
+1
 /path/to/disk-image.dd
 
-python3 360_toolkit_menu.py
 ```
 **Version 2**
 ```
 cd forensic-toolkit
 
-python3 360_toolkit2_Menu_HTML.py /path/to/disk-image.dd
+python3 forensic_toolkit2_Menu_HTML.py /path/to/disk-image.dd
 
 ls -lh forensic_output/
 ```
