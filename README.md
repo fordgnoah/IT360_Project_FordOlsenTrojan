@@ -53,10 +53,6 @@ Ubuntu/Debian:
 sudo apt update  
 sudo apt install sleuthkit
 ```
-macOS:
-```
-brew install sleuthkit
-```
 2. Clone Repository  
 ```
 git clone https://github.com/fordgnoah/IT360_Project_FordOlsenTrojan.git
