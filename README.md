@@ -61,14 +61,6 @@ brew install sleuthkit
 ```
 git clone https://github.com/fordgnoah/IT360_Project_FordOlsenTrojan.git
 ```
-**DISCLAIMER - If the files are downloaded as .txt files, execute the following code.**
-```
-mv forensic_toolkit_menu.txt foensic_toolkit_menu.py
-mv forensic_toolkit.txt forensic_toolkit.py
-mv forensic_toolkit2_menu_HTML.txt forensic_toolkit2_menu_HTML.py
-mv forensic_toolkit2_HTML.txt forensic_toolkit2_HTML.py
-```
-
 3. Set Permissions
 ```
 chmod +x forensic_toolkit.py
@@ -113,5 +105,11 @@ You'll see:
 
 Open the HTML report
 ```
+/path/to/forensic_output/*_forensic_report.html/
+python3 -m http.server 8080
+In Firefox, search <IP>:8080
+
+OR
+
 firefox forensic_output/*_forensic_report.html
 ```
