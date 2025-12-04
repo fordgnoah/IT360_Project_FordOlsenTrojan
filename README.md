@@ -83,7 +83,7 @@ python3 forensic_toolkit_menu.py
 /path/to/disk-image.dd
 
 ```
-**Version 2**
+**Version 2 HTML Edition**
 ```
 cd forensic-toolkit
 
